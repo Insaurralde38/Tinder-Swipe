@@ -66,3 +66,27 @@ function startDrag(event) {
 
 document.addEventListener('mousedown', startDrag)
 document.addEventListener('touchstart', startDrag, { passive: true })
+
+const favButton = document.querySelector('.is-fav')
+favButton.addEventListener('click', () => {
+    simulateDecision(true)
+})
+
+const crossButton = document.querySelector('.is-cross')
+crossButton.addEventListener('click', () => {
+    simulateDecision(false)
+})
+
+function simulateDecision(goRight) {
+    const cards = document.querySelectorAll('article')
+    const actualCard = cards[cards.length - 1]
+
+    actualCard.classList.add(goRight ? 'go-right' : 'go-left')
+
+    const choiceElement = goRight ? actualCard.querySelector('.choice.like') : actualCard.querySelector('.choice.nope')
+    choiceElement.style.opacity = 1
+
+    actualCard.addEventListener('transitionend', () => {
+        actualCard.remove()
+    })
+}
