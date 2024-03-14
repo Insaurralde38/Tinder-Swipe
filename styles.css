@@ -73,7 +73,7 @@ footer {
             width: 48px;
             height: 48px;
         }
-        &.is-undo {
+        &.is-rewind {
             background-position: -140px 0;
         }
         &.is-cross {

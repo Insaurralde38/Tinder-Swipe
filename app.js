@@ -64,19 +64,6 @@ function startDrag(event) {
     }
 }
 
-document.addEventListener('mousedown', startDrag)
-document.addEventListener('touchstart', startDrag, { passive: true })
-
-const favButton = document.querySelector('.is-fav')
-favButton.addEventListener('click', () => {
-    simulateDecision(true)
-})
-
-const crossButton = document.querySelector('.is-cross')
-crossButton.addEventListener('click', () => {
-    simulateDecision(false)
-})
-
 function simulateDecision(goRight) {
     const cards = document.querySelectorAll('article')
     const actualCard = cards[cards.length - 1]
@@ -90,3 +77,16 @@ function simulateDecision(goRight) {
         actualCard.remove()
     })
 }
+
+document.addEventListener('mousedown', startDrag)
+document.addEventListener('touchstart', startDrag, { passive: true })
+
+const favButton = document.querySelector('.is-fav')
+favButton.addEventListener('click', () => {
+    simulateDecision(true)
+})
+
+const crossButton = document.querySelector('.is-cross')
+crossButton.addEventListener('click', () => {
+    simulateDecision(false)
+})
