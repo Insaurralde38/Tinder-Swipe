@@ -71,8 +71,8 @@ La aplicación está construida con HTML, CSS y JavaScript, y cuenta con:
 
 <br />
 
-<div align="end" style="display: flex; align-items: center; justify-content: flex-end; margin-bottom: -5px;">
+<div align="end" style="display: inline-flex; align-items: center;">
 
-Hecho con <img src="./images/boke-heart.png" alt="heart" height="14" width="16" style="margin-bottom: -4.5px;" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./images/boke-chimp.png" alt="chimp" height="21" width="21" style="margin-bottom: -4.5px;" >
+Hecho con <img src="./images/boke-heart.png" alt="heart" height="14" width="16" style="margin-bottom: -2.5px;"> por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./images/boke-chimp.png" alt="chimp" height="21" width="21" style="margin-bottom: -4px;">
 
 </div>
