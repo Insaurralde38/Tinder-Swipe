@@ -1,21 +1,21 @@
 <p align="left">
-    <img src="./images/insa-logo.png" height=50 >
+    <img src="./images/insa-logo.png" height="50" alt="Insa Logo">
 </p>
 
 # Proyecto Personal | [**Tinder Swipe**](https://tinder-swipe-insa.vercel.app/)
 
 <p align="center">
-  <img src="https://www.letsnurture.ca/wp-content/uploads/2018/08/tinder_banner.jpg" />
+  <img src="https://www.letsnurture.ca/wp-content/uploads/2018/08/tinder_banner.jpg" alt="Tinder Swipe Banner" />
 </p>
 
 <div align="center">
 
-## **📌 TECNOLOGÍAS UTILIZADAS**
+## **📌 Tecnologías Utilizadas**
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-385BF4?style=flat-square&logo=css3)
-[![Vercel](https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel&link=https://vercel.com/)](https://vercel.com/)
+[![Vercel](https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel)](https://vercel.com/)
 
 </div>
 
@@ -23,7 +23,7 @@
 
 <div align="center">
 
-## **📋 DESCRIPCIÓN**
+## **📋 Descripción**
 
 </div>
 
@@ -37,13 +37,13 @@ Una aplicación web interactiva que simula la funcionalidad de deslizar perfiles
 
 <div align="center">
 
-## **⚠️ IMPORTANTE!**
+## **⚠️ Importante**
 
 </div>
 
 <br />
 
-Abriendo el archivo **`index.html`** con las extensiones [Live Server](vscode:extension/ritwickdey.LiveServer), [Live Preview](vscode:extension/ms-vscode.live-server) o cualquiera de tu preferencia, podrás ejecutar el proyecto en tiempo real.
+Abriendo el archivo **`index.html`** con las extensiones [Live Server](vscode:extension/ritwickdey.LiveServer) o [Live Preview](vscode:extension/ms-vscode.live-server), podrás ejecutar el proyecto en tiempo real.
 
 <br />
 
@@ -51,7 +51,7 @@ Abriendo el archivo **`index.html`** con las extensiones [Live Server](vscode:ex
 
 <div align="center">
 
-## **📁 DETALLE**
+## **📁 Detalle**
 
 </div>
 
@@ -59,7 +59,7 @@ Abriendo el archivo **`index.html`** con las extensiones [Live Server](vscode:ex
 
 La aplicación está construida con HTML, CSS y JavaScript, y cuenta con:
 
-**📍 TARJETAS DE PERFIL |**
+**📍 Tarjetas de Perfil**
 
 - Tarjetas interactivas con imágenes de perfiles y botones de "LIKE" y "NOPE".
 - Funcionalidad de deslizamiento y animaciones suaves para una experiencia de usuario agradable.
@@ -71,8 +71,8 @@ La aplicación está construida con HTML, CSS y JavaScript, y cuenta con:
 
 <br />
 
-<div align="end">
+<div align="end" style="margin-bottom: -5px;">
 
-Hecho con <img src="./images/boke-heart.png" style="height: 14px; width: 16px; margin-bottom: -2.5px;" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./images/boke-chimp.png" style="height: 21px; width: 21px; margin-bottom: -5px;" >
+Hecho con <img src="./images/boke-heart.png" height="14" width="16" alt="heart" style="margin-bottom: -2.5px;" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./images/boke-chimp.png" height="21" width="21" alt="chimp" style="margin-bottom: -4.5px;" >
 
 </div>
